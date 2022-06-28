@@ -1,0 +1,65 @@
+
+body {
+        background-color: #EAF6F6;
+     }
+hr   {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width:5%;
+}
+    
+h1  {
+    color: #66BFBF;
+}
+h2  {
+    color: #66BFBF;
+   
+}
+
+a:hover {
+   
+    background-color:goldenrod;   
+}
+div{
+  text-align: right;
+  font-size:40px;
+}
+
+#contact-div{
+  font-size:25px;
+  
+}
+
+input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#hobbies-div{
+  font-size:90px;
+}
+
+.paragraph{
+  font-size:40px;
+}
+
+#ul-div{
+    text-align: left;
+    
+  }
+  .new{
+    font-size:50px;
+  }
+
+
+
+
+
+
+
+
+
+  
+
