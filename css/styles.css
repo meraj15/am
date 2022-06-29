@@ -18,6 +18,7 @@ h2  {
    
 }
 
+
 a:hover {
    
     background-color:goldenrod;   
@@ -30,7 +31,7 @@ a:hover {
 }
 
 #contact-div{
-  font-size:25px;
+  font-size:40px;
   
 }
 
@@ -45,6 +46,7 @@ input {
 
 .paragraph{
   font-size:40px;
+  color: maroon;
 }
 
 #ul-div{
@@ -53,6 +55,7 @@ input {
   }
   .new{
     font-size:50px;
+    color: maroon;
   }
 
   #large-div{
@@ -60,8 +63,7 @@ input {
   }
 
   .footer{
-    bottom: 0;
-    width: 100%;
+    font-size: 30px;
     background-color: darkgreen;
     color: white;
     text-align: center;
@@ -91,6 +93,28 @@ font-size: 30px;
 .color{
     color:indigo;
 }
+
+#about-us{
+  font-size: 100px;
+}
+
+h4{
+  color: maroon;
+}
+
+#input-el{
+  background-color: blue;
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+#element-div{
+  font-size: 30px;
+  color:maroon;
+}
+ 
+
+
 
 
 
