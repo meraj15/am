@@ -5,7 +5,7 @@ body {
 hr   {
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color:grey;
     border-width: 5px;
     width:5%;
 }
@@ -32,13 +32,12 @@ a:hover {
 
 #contact-div{
   font-size:40px;
+  text-align: left;
+  margin-left: 30px;
+
   
 }
 
-input {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 #hobbies-div{
   font-size:90px;
@@ -62,12 +61,7 @@ input {
     font-size:25px;
   }
 
-  .footer{
-    font-size: 30px;
-    background-color: darkgreen;
-    color: white;
-    text-align: center;
-  }
+ 
   .nav-links{
     text-decoration: none;
     
@@ -112,6 +106,71 @@ h4{
   font-size: 30px;
   color:maroon;
 }
+
+#footer-div{
+  font-size: 30px;
+}
+
+/* Styles or Icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.small{
+  font-size: 25px;
+}
+
+#small-div{
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#form-div{
+
+  font-size: 20px;
+}
+
+.berger {
+  font-size: 40px;
+}
+
+#aaya-div{
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 20px;
+  background-color: blue;
+  color: whitesmoke;
+}
+
+#contact-div{
+  color: maroon;
+}
+
+#large-div{
+  margin-left: 30px;
+  font-size: 60px;
+}
+
+
+
+
+
  
 
 
