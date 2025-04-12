@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Shopping App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .faq {
+            margin-bottom: 20px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            background: #ff6600;
+            color: white;
+            border-radius: 5px;
+        }
+        .answer {
+            display: none;
+            padding: 10px;
+            background: #f1f1f1;
+            border-left: 4px solid #ff6600;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(0)">How can I track my order?</div>
+            <div class="answer">You can track your order through the "My Orders" section in the Shopping App.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(1)">What is the return policy?</div>
+            <div class="answer">We offer a 30-day return policy. Please check our refund policy page for more details.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(2)">Do you offer international shipping?</div>
+            <div class="answer">Yes, we provide international shipping with applicable charges.</div>
+        </div>
+        
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(3)">How can I contact customer support?</div>
+            <div class="answer">You can contact our support team via email at support@shoppingapp.com.</div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleAnswer(index) {
+            var answers = document.querySelectorAll('.answer');
+            answers[index].style.display = answers[index].style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
